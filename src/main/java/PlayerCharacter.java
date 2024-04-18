@@ -28,7 +28,7 @@ public class PlayerCharacter {
         for (int i = -5; i <= 5 ; i++) {
             for (int j = -5; j <= 5; j++) {
                 if (i == positionXY[1] && j == positionXY[0]) {
-                    System.out.print(" X ");
+                    System.out.print(" 👤 ");
                 } else {
                     System.out.print(" . ");
                 }
